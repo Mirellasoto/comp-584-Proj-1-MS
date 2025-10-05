@@ -62,13 +62,19 @@ set display to block to help with the stacking and set width to 100% to
 fill its area in full don't forget multiple importants*/
 .block { display: block !important; width: 100% !important;}
 }
+a:hover {color: lightblue; text-decoration: none;}
+a.button {transition: all 0.2s ease;}
+a.button:hover { background-color: lightblue; !important;
+box-shadow:0px 12px 24px rgba(0, 0, 0, .3);
+transform:translateY(-10px); }
+
 
 input { display: none; }
-/* Make Labels Look clickable*/ 
+
 label { cursor: pointer; }
-/* Hide Slides*/
+
 .slide { display: none; }
-/* Show the cecked slides*/ 
+
 #slide1:checked ~ .slide1,
 #slide2:checked ~ .slide2,
 #slide3:checked ~ .slide3 {
@@ -103,61 +109,58 @@ display: block;
 
 	</head>
 	<body id="body" style="margin: 0 !important; padding: 0 !important;">
-
-
-
 	<br>
 	<br>
 	<br>
 	<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" align="center">
 			<tr>
-				<td>
+				<td >
 					<table border="0" cellpadding="0" cellspacing="0" width="600"align="center">
 	  <!-- Logo image -->
 	 <tr>
-		<td align="center">
-			<img src="Images/logo.png" alt= "logo (Question mark)" width="30" style="display:block; max-width: 100%; min-width: 20px; width: 20%" align="center">
+		<td align="center"bgcolor="F6F6F6">
+			<img src="Images/logo.png" alt= "logo (Witch Hair)" width="30" style="display:block; max-width: 100%; min-width: 20px; width: 20%" align="center">
 		</td>
 	</tr>
 
 		<!-- Headline -->
 	<tr>
-		<td style="color: black; padding: 20px; background: grey url('Images/coins.png');">
+		<td bgcolor="F6F6F6"style="color: black; padding: 20px; ">
 			<h1 style="margin:0; font-size: 50px; text-align:center;">
-			Stan’s <s>trash</s> treasures!
+			Mirella's <s>Smoothies</s> Potions!
 			</h1>
 		</td>
 	</tr>
     
 		<!-- Hero Image -->
 	<tr>
-		<td style="padding: 20px;">
-			<img src="Images/HImage.png" alt= "falling green dollar bills" width="500" style="display:block; max-width: 100%; min-width: 100px; width: 100%">
+		<td bgcolor="F6F6F6"style="padding: 20px;">
+			<img src="Images/HImage.png" alt= "crescent moon" width="500" style="display:block; max-width: 100%; min-width: 100px; width: 100%">
 		</td>
 	</tr>
 
 		<!-- Body copy -->
 	<tr>
-		<td style="color: #222222; padding: 20px;">
+		<td bgcolor="F6F6F6"style="color: #222222; padding: 20px;">
 			<p lang="en">
 
-	      It’s Stan of Stan Co. Enterprises. After my commercials landed me in some hot water with several state governments, I decided to sell through emails instead. How did I get your emails? I wouldn’t worry about that! I would worry about missing out on the amazing deals shown below. They are quality products being offered at a reasonable price. I wouldn’t suggest checking your bank statement after purchasing. Don’t wait! Purchase your Stan Co products today, they may not be here tomorrow, that is, if the federal government catches me, I didn’t exactly look up the legality of selling these products to the people of the states I’m banned in. So act now and get yourself one of these products today!
+	      Is your life terrible? Do you want to fix it without putting any actual effort in? Then what you need is one of my magic potions. I have potions to fix any problems you may have, and by any, I do mean the three that are mentioned below. I am hoping they are universal enough to interest you; statistically, at least one of these will apply to you, I think. So look no further and purchase one of my potions below; they are guaranteed to help you with your life.* The ingredients used are all natural, and the deals are the best in town. Don’t wait, purchase one now!!
 			</p>
 		</td>
 	</tr>
-    <!--- Three column --->
 
+    	<!--- Three column --->
     <tr>
-    	<td>
+    	<td bgcolor="F6F6F6" >
 			<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" >
 				<tr>
 					<td>
 						<table class="block" align="left" border="0" cellpadding="0" cellspacing="9" class="block" role="presentation"width="33%">
 							<tr>
 								<td style="padding: 20px; line-height: 18px;">
-									<p lang="en" style="font-size: 14px; margin: 0;">Are you sick of always spilling punch on yourself? Then you need the shammy of the future. Made from the same material astronauts use to clean cranberry juice on the moon.* 
-										<br><br>That's the sham total. It's a total sham!<br><br></p>
-									<img src="Images/Sham-Total-TV.png" alt= "Sham total being displayed by me(Stan)" width="100" style="display:block; max-width: 100%; min-width: 100px; width: 100%">
+									<p lang="en" style="font-size: 14px; margin: 0;">Do you have a crush? Do they not like you back? Look no further, for with my blend of red pepper, strawberry, ladybug, and my secret ingredient, you will become irresistible to them, leaving them no choice but to fall in love with you!</p>
+									<br>
+									<img src="Images/LP.png" alt= "A heart with the words 'love potion'" width="100" style="display:block; max-width: 100%; min-width: 100px; width: 100%">
 								</td>
 							</tr>
 
@@ -166,21 +169,25 @@ display: block;
 						<table class="block" align="right" border="0" cellpadding="0" cellspacing="0" class="block" role="presentation" width="33%">
 							<tr>
 								<td style="padding: 20px;line-height: 18px;">
-									<p lang="en" style="font-size: 14px; margin: 0;">Are you tired of bandages that are hard to remove? Then what you need is a rip off. These bandages are made to fall right off your skin and cause no irritation on removal.*** 
-										The rip off won't give you rashes. <b>I repeat!!!!</b></p>
-										<p lang="en" class="shake-text">It won't give you rashes</p>
-									<img src="Images/Rip-Off-TV.png" alt= "Rip Off box held by me (Stan)" width="100" style="display:block; max-width: 100%; min-width: 100px; width: 100%">
+									<p lang="en" style="font-size: 14px; margin: 0;">Do your knees pop? Does your back always hurt? Look no further, for with my blend of celery, pear, praying mantis, and my secret ingredient, you will feel like new. It is not a revival potion. <b>I repeat!!!!
+</b>
+</p>
+										<p lang="en" class="shake-text">It will not revive someone.
+</p>
+									<img src="Images/HP.png" alt= "green cross with the word 'health potion'" width="100" style="display:block; max-width: 100%; min-width: 100px; width: 100%">
 								</td>
 							</tr>
 						</table>
 
 						<table class="block" align="center" border="0" cellpadding="0" cellspacing="0" class="block" role="presentation"width="33%">
 							<tr>
-								<td style="padding: 20px; line-height: 18px;">
+								<td style="padding: 20px; line-height: 18px;" >
 						
-									<p lang="en" style="font-size: 14px; margin: 0;">Are you always dropping crumbs on the weird carpet in your missing twin brother’s room? Then what you need is the Stan-Vac vacuum. The perfect vacuum for all your experimental carpet needs.**
-										<br><br>The Stan-Vac! It sucks more than anything. </p>
-									<img src="Images/Stan-Vac-Door.png" alt= "Me (Stan) selling the Stan-Vac to someone at their door" width="100" style="display:block; max-width: 100%; min-width: 100px; width: 100%">
+									<p lang="en" style="font-size: 14px; margin: 0;">Are you poor? Do you wish to change that? Look no further, for with my blend of yellow squash, mango, monarch butterfly, and my secret ingredient, you will be rich in no time at all. You need to spend money to make money after all.
+										
+ </p>
+ <br>
+									<img src="Images/WP.png" alt= "A coin with the words 'wealth potion'" width="100" style="display:block; max-width: 100%; min-width: 100px; width: 100%">
 
 								</td>
 							</tr>
@@ -193,21 +200,27 @@ display: block;
 	</tr>	
 
 		<!-- Button -->
+	<tr>
+    	<td bgcolor="F6F6F6">
+		
 		<table width= "100%" border="0"cellspacing= "0" cellpadding="0">
 			<tr>
 				<td align="center" style="padding: 60px;">
 					<table>
 						
 						<tr>
-							<td align="center" style="border-radius: 3px;" bgcolor="#AAEEAA"><a href="https://shows.disney.com/gravity-falls" target="_blank" style="font-size: 20px; font-family: sans-serif; font-weight: bold; color: black; padding: 12px 18px; border: 1px solid green; display: inline-block;"> Buy now! </a></td></tr>
+							<td align="center" style="border-radius: 3px;" bgcolor="#AADDEE"><a class= "button" href="index.html" target="_blank" style="font-size: 50px; font-family: sans-serif; font-weight: bold; color: black; padding: 30px 80px; border: 1px solid green; display: inline-block;"> Buy now! </a></td></tr>
 					</table>
 				</td>
 			</tr>
 		</table>
-	<!-- two column -->
+		</td>
+	</tr>	
+
+		<!-- two column -->
 	<tr>
-		<td >
-			<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="600" align= "center">
+		<td bgcolor="F6F6F6" >
+			<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" align= "center">
 			<tr>
 				<td>
 					<!-- Left column -->
@@ -219,23 +232,23 @@ display: block;
 								<input type="radio" name="slides" id="slide2">
 								<input type="radio" name="slides" id="slide3">
 
-								<label for="slide1" class="slide-label" style="border: 2px solid black; display: inline-block; margin: 10px; padding: 4px 20px;">Sham total</label>
+								<label for="slide1" class="slide-label" style="border: 2px solid black; display: inline-block; margin: 10px; padding: 4px 20px;">Love potion</label>
 
-								<label for="slide2" class="slide-label" style="border: 2px solid black; display:inline-block; margin: 10px; padding: 4px 20px;">Stan-Vac</label>
+								<label for="slide2" class="slide-label" style="border: 2px solid black; display:inline-block; margin: 10px; padding: 4px 20px;">Wealth Potion</label>
 
-								<label for="slide3" class="slide-label" style="border: 2px solid black; display:inline-block; margin: 10px; padding: 4px 20px;">Rip Off</label>
+								<label for="slide3" class="slide-label" style="border: 2px solid black; display:inline-block; margin: 10px; padding: 4px 20px;">Health potion</label>
 								<!-- Content to be switched-->
 								
 								<div class="slide slide1" style="background-color: padding: 20px;">
-									<img src="Images/Sham-Total.png" alt= "a woman using the sham total that totally isn't leaching dye" width="100" style="display:block; max-width: 100%; min-width: 100px; width: 100%">
+									<img src="Images/LPI.png" alt= "love potion and it's ingredients" width="100" style="display:block; max-width: 100%; min-width: 100px; width: 100%">
 								</div>
 
 								<div class="slide slide2" style="background-color: padding: 20px;">
-									<img src="Images/Stan-Vac.png" alt= "Soos using the Stan-Vac to vacuum the carpet upstairs" width="100" style="display:block; max-width: 100%; min-width: 100px; width: 100%">
+									<img src="Images/WPI.png" alt= "wealth potion and it's ingredients" width="100" style="display:block; max-width: 100%; min-width: 100px; width: 100%">
 								</div>
 
 								<div class="slide slide3" style="background-color: padding: 20px;">
-									<img src="Images/Rip-Off.png" alt= "Me (Stan) having the easiest time peeling the Rip Off with no difficulty whatsoever" width="100" style="display:block; max-width: 100%; min-width: 100px; width: 100%">
+									<img src="Images/HPI.png" alt= "health potion and it's ingredients" width="100" style="display:block; max-width: 100%; min-width: 100px; width: 100%">
 								</div>
 							</td>
 						</tr>
@@ -245,11 +258,8 @@ display: block;
 						<tr>
 							<td style="padding: 20px; line-height: 8px;">
 								<p lang="en" style="font-size: 6px; margin: 0; color: grey";>
-									*The sham total’s dye will leach into your clothes. This leaching has no known prevention and has no known solution at this time. By purchasing this product, you agree to settle all disputes with Stan Co. Enterprises and its subsidiaries or affiliates individually, outside of any court.
-									<br>
-									**The Stan-Vac vacuum has had reports of motor failure and combustion, leading to either an unworking product or an explosive fire hazard. By purchasing this product, you agree to settle all disputes with Stan Co. Enterprises and its subsidiaries or affiliates individually, outside of any court.
-									<br>
-									***The Rip Off will cause rashes; please seek the attention of your medical provider after the use of Rip Off. By purchasing this product, you agree to settle all disputes with Stan Co. Enterprises and its subsidiaries or affiliates individually, outside of any court.
+									*The potions might work, they might not work; there is no guarantee that they do anything at all. On full disclosure, these potions are meant to function as a placebo, in order to give someone the confidence to talk to their desired person, looking on the positive side of their financial situation, or get rid of any imaginary pain they may be feeling. On full disclosure, the secret ingredient in all of these smoothies is sugar. It is a lot of sugar; the smoothies consist almost entirely of sugar. By purchasing this product, you agree to settle all disputes with me about my products outside of any court.
+
 								</p>
 							</td>
 						</tr>
@@ -260,19 +270,22 @@ display: block;
 		</td>
 	</tr>
 
-<br>
+	<br>
 
     
     
 		<!-- Footer information: Always include an unsubscribe link! -->
 		<tr>
-				<td align= "center" style="color: lightgrey; padding: 20px;">
+				<td  bgcolor="F6F6F6"align= "center" style="color: white; padding: 20px;background: grey url('Images/stars.png');">
 					<p lang="en">
-		Don’t bother looking for the <a style="color: lightgrey;" href= "https://shows.disney.com/gravity-falls">unsubscribe</a> button, I didn’t add it! You're stuck getting these emails!
+						This email address is not monitored, please do not reply to any emails sent from this address, If you wish to contact me, don't. I don't care about you, I just care about what is in your wallets. Don't even bother going to the address listed below, It does not exist.
+						<br>
+						<br>
+		Don’t even bother looking for the <a style="color: white;" href= "index.html">unsubscribe</a> button, I didn’t add it! You're stuck getting these emails!
  
-
+<br>
 				<br>
-		618 Gopher Road, Gravity Falls, Oregon, USA
+		The circle of Redwoods, Northridge, CA, 91330, USA
 
 					</p>
 				</td>
