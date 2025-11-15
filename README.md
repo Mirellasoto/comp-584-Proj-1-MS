@@ -1,3 +1,3 @@
-# comp-584-hw4-MS
+# comp-584-Proj-1-MS
 
-https://mirellasoto.github.io/comp-584-hw4-MS/
+https://mirellasoto.github.io/comp-584-Proj-1-MS/
